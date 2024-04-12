@@ -2,7 +2,6 @@ import React, { useEffect, useRef } from "react";
 import "./navbar.css";
 import logo from "../../image/video.png";
 import { Link, useNavigate } from "react-router-dom";
-import DarkMode from "../darkMode/DarkMode";
 const Navbar = ({ search, sitSearch }) => {
   const navegat = useNavigate();
   const inputEl = useRef(null);
@@ -44,7 +43,7 @@ const Navbar = ({ search, sitSearch }) => {
         onChange={handleChange}
         ref={inputEl}
       />
-      <DarkMode />
+
       <Link to="/watched" className="result">
         🛒
       </Link>
