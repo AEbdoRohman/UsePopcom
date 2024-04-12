@@ -1,0 +1,31 @@
+/* loading */
+
+.loader {
+  padding: 10% 2rem;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5rem;
+}
+.poster-loader,
+.content-loader {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  background: linear-gradient(90deg, #0001 33%, #0005 50%, #0001 66%)
+    var(--color-background-500);
+  background-size: 300% 100%;
+  animation: l1 1s infinite linear;
+}
+
+@keyframes l1 {
+  0% {
+    background-position: right;
+  }
+}

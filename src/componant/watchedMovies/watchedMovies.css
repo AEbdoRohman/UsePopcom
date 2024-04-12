@@ -1,0 +1,27 @@
+.main-title {
+  color: var(--color-primary);
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+.movie {
+  background-color: var(--color-background-100);
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-bottom: 1rem;
+}
+.watched-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mov-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
